@@ -37,3 +37,6 @@ Prerequisites
 Apache Kafka
 Apache Spark
 Apache Cassandra
+
+![image](https://github.com/user-attachments/assets/7872146b-c4db-438d-9516-8e6db9f40db2)
+
