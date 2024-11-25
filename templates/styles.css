@@ -1,0 +1,135 @@
+/* Apply a dark background with green highlights */
+body {
+    font-family: 'Poppins', sans-serif; /* Elegant font */
+    background-color: #121212;
+    color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for the content */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #1ED760; /* Bright green */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Section titles */
+h2 {
+    color: #1ED760;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+/* Input fields styling */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #222;
+    color: #fff;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    border-color: #1ED760;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    background-color: #1ED760;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #17b156;
+}
+
+/* Sections for user stats and recommendations */
+.statistics, .recommendations {
+    margin-bottom: 40px;
+}
+
+#user-stats, #recommendation-list {
+    margin-top: 20px;
+}
+
+/* Recommendation list styling - two columns */
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    color: #f4f4f9;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul li strong {
+    color: #1ED760;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+ul li p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    ul {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
