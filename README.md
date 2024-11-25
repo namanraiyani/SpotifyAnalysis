@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8310921d-65e7-4f2e-a266-f1325de7da56)# SpotifyAnalysis
+# SpotifyAnalysis
 
 User Behavior Analysis with Apache Spark, Kafka, and Cassandra
 Overview
